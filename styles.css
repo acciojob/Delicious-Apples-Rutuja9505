@@ -1,1 +1,71 @@
-/* your code here */
+body {
+    background-color: lightgreen;
+    font-family: Arial;
+}
+
+.product {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.photo-main{
+	width:250px;
+	height:500px;
+	background-color:limegreen;
+	padding:10px;
+	text-align:right;
+	color:whitesmoke;
+}
+.photo-main>img{
+	width:250px;
+	height:300px;
+}
+.photo-album>ul
+{
+	padding:30px;
+	display:flex;
+	gap:10px;
+	list-style:none;
+}
+.photo-album>ul>li{
+	border:1px solid lightgray;
+}
+.photo-album>ul>li>img{
+	width:50px;
+}
+
+.title>span{
+	color:lightgray;
+}
+.price{
+	color:red;
+	font-family:cadetblue;
+	font-size:30px;
+}
+.price>span{
+	color:red;
+	font-family:cadetblue;
+	font-size:60px;
+}
+.variant{
+	color:slategray;
+	
+}
+.variant>ul{
+	display:flex;
+	list-style:none;
+	gap:5px;
+}
+.add-to-cart{
+	background-color:red;
+	color:white;
+	padding:10px;
+	text-align:center;
+	border:1px solid red;
+	border-radius:5px;
+}
